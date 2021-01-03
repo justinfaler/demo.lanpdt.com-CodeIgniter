@@ -1,0 +1,720 @@
+/* =========== Tabbing Panel Css =========== */
+#expert .expert_tab_nav {
+	margin-top: 5px;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box {
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box {
+	width: 20%;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content {
+	padding: 20px 5px;
+	border-right: 3px solid #f2f2f2;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box:last-child .etn_content {
+	border-right: 0;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_icon {
+	width: 50px;
+	padding: 10px;
+	background-color: #f08b31;
+	border-radius: 100%;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon.skyblue,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_icon.skyblue {
+	background-color: #5174e7;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon.purple,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_icon.purple {
+	background-color: #b279ff;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon.pink,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_icon.pink {
+	background-color: #ed74ff;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon.red,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_iconred {
+	background-color: #f36565;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon.green,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_icon.green {
+	background-color: #40dea5;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon svg,
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon .notib_icon svg {
+	width: 100%;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_title {
+	display: inline-block;
+	vertical-align: middle;
+	max-width: calc(100% - 54px);
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_title p {
+	font-size: 15px;
+	font-weight: 500;
+	color: #515151;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .active .etn_content {
+	background-color: #203569;
+}
+
+#expert .expert_tab_nav .expert_tab_nav_box .etn_box .active .etn_content .etnc_title p {
+	color: #fff;
+}
+
+/* =========== Home Page Css =========== */
+#expert .expert_content .ec_box {
+	margin-bottom: 20px;
+}
+
+#expert .expert_content .ec_box .ecb_box {
+	padding: 12px 20px;
+	background-color: #fff;
+	border-radius: 9px;
+}
+
+#expert .expert_content .ec_box .my_ticket {
+	padding: 5px 0px;
+	float: left;
+	width: 100%;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_header {
+	border-bottom: 1px solid #e3e3e3;
+	margin-bottom: 5px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_header .mtdh_id {
+	padding-left: 15px !important;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_header .mtdh_id p {
+	color: #203569;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_header .mtdh_date {
+	text-align: right;
+	padding-right: 15px !important;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_header .mtdh_date p {
+	color: #959595;
+	font-size: 15px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box {
+	margin-bottom: 10px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box.mtd_body_box_2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_name {
+	float: right;
+	width: 100%;
+	max-width: 53px;
+	margin-bottom: 0px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_name.mtdb_name_2 {
+	max-width: 100%;
+	padding-right: 10px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_name p {
+	float: left;
+	width: 100%;
+	font-weight: 500;
+	color: #959595;
+	text-transform: uppercase;
+	font-size: 16px;
+	letter-spacing: .6px;
+	line-height: 1.3;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_name p.expert_name {
+	text-transform: capitalize;
+	color: #2fc659;
+	font-size: 18px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_status,
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_btn {
+	display: inline-block;
+	vertical-align: middle;
+	width: auto;
+	margin-top: 0px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_status p {
+	background-color: #f3d24d;
+	color: #fff;
+	font-weight: 500;
+	font-size: 15px;
+	border-radius: 50px;
+	text-align: center;
+	padding: 3px 7px;
+	float: left;
+	width: 100%;
+	max-width: initial;
+	opacity: 1;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_icon {
+	width: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_btn .btn {
+	background-color: #2fc659;
+	color: #fff;
+	width: 100%;
+	font-weight: 500;
+	font-size: 18px;
+	max-width: 110px;
+	padding: 4px 30px;
+	letter-spacing: .6px;
+}
+
+/* =========== Pending Tickets Page Css =========== */
+#expert .expert_content .ec_box .pend_ticket .mt_details .mtd_body .mtd_body_box .mtdb_status {
+	opacity: 0;
+	pointer-events: none;
+}
+
+/* =========== Account Page Css =========== */
+#expert .expert_content .expert_details {
+	background-color: #fff;
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-top: 55px;
+	padding: 20px 0 100px;
+}
+
+#expert .expert_content .expert_details .ed_profilepic {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 90px;
+	margin-top: -67px;
+	margin-bottom: 0;
+	position: relative;
+}
+
+#expert .expert_content .expert_details .ed_profilepic .edp_img {
+	display: inline-block;
+	width: 100%;
+}
+
+#expert .expert_content .expert_details .ed_profilepic .image_upload {
+	position: absolute;
+	right: 5px;
+	bottom: 9px;
+	width: 20px;
+	height: 20px;
+	background-color: #6ec9fe;
+	border-radius: 100%;
+	padding: 5px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#expert .expert_content .expert_details .ed_profilepic .image_upload svg {
+	width: 100%;
+	display: inline-block;
+	fill: #fff;
+}
+
+#expert .expert_content .expert_details .ed_profilepic .image_upload input {
+	position: absolute;
+	opacity: 0;
+	left: 0;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_name {
+	margin-top: 5px;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_name h4 {
+	color: #203569;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_content {
+	margin-top: 30px;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_content .edec_title {
+	margin-bottom: 10px;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_content .edec_title h5 {
+	color: #203569;
+	font-size: 19px;
+	font-weight: 500;
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_content .edec_title .btn {
+	display: inline-block;
+	vertical-align: middle;
+	background-color: #6ec9fe;
+	border-radius: 100px;
+	padding: 1px 13px;
+	color: #fff;
+	font-size: 12px;
+	margin-left: 15px;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_content .edec_content {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#expert .expert_content .expert_details .ed_profilecontent .ed_expert_content .edec_content p {
+	color: #8f8f8f;
+	font-size: 15px;
+}
+
+#expert .expert_content .contact_page .ed_form {
+	max-width: 900px;
+	margin: 30px auto 0;
+	padding: 0 10px;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box {
+	margin-bottom: 1rem;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .form_content,
+#expert .expert_content .contact_page .ed_form .form_content {
+	max-width: 100%;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box label {
+	margin-bottom: 5px;
+	color: #bababa;
+	font-size: 16px;
+	margin-left: 10px;
+	width: 100%;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box {
+	border: 1px solid #cecdcd;
+	border-color: #c9c9c9;
+	border-radius: 10px;
+	padding: 8px 9px 8px 15px;
+	font-weight: 400;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box p,
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box textarea,
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box input {
+	color: #253a6d;
+	font-size: 16px;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box span {
+	background-color: #6ec9fe;
+	color: #fff;
+	font-size: 14px;
+	padding: 4px 10px;
+	margin-right: 4px;
+	border-radius: 100px;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box span:last-child {
+	margin-right: 0;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box textarea {
+	border: none;
+	padding: 0;
+	resize: none;
+	height: 90px;
+	overflow-x: hidden;
+	line-height: 1.4;
+	letter-spacing: -0.1px;
+	box-shadow: none !important;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box .edf_border_box input {
+	border: none;
+	padding: 0;
+	height: auto;
+	box-shadow: none !important;
+}
+
+#expert .expert_content .contact_page .ed_form .edf_box button {
+	background-color: #7cc243;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+	max-width: 160px;
+	width: 100%;
+	border-radius: 7px;
+	height: auto;
+	min-height: auto;
+	padding: 6px 10px;
+}
+
+/* =========== Contact Page Css =========== */
+#expert .expert_content .expert_details .ed_profiledet .ed_content {
+	max-width: 570px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#expert .expert_content .expert_details .ed_profiledet .ed_content p {
+	color: #555555;
+	font-size: 17px;
+}
+
+#expert .expert_content .contact_page .ed_form .ed_form_div .ed_form_div_part {
+	margin-bottom: 20px;
+}
+
+#expert .expert_content .contact_page .ed_form .ed_form_div .ed_form_div_part .select select {
+	width: 100%;
+	border: 1px solid #c9c9c9;
+	background-image: url(../image/select_dropdown.png);
+	background-repeat: no-repeat;
+	background-position: right 15px center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	color: #000;
+	font-size: 16px;
+	border-radius: 7px;
+	height: auto;
+	min-height: inherit;
+	padding: 9px 10px 9px 20px;
+}
+
+#expert .expert_content .contact_page .ed_form .ed_form_div .form_content input,
+#expert .expert_content .contact_page .ed_form .ed_form_div .form_content.textarea textarea {
+	color: #000;
+	font-size: 16px;
+	border-color: #c9c9c9;
+	border-radius: 7px;
+	height: auto;
+	min-height: inherit;
+	padding: 9px 10px 9px 20px;
+}
+
+#expert .expert_content .contact_page .ed_form .ed_form_div .form_content.textarea textarea {
+	height: 120px;
+	resize: none;
+}
+
+#expert .expert_content .contact_page .ed_form .ed_form_div .form_content.button button {
+	max-width: 160px;
+	width: 100%;
+	border-radius: 7px;
+	height: auto;
+	min-height: auto;
+	padding: 6px 10px;
+	background-color: #7cc243;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 500;
+	border: none;
+	-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+	box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* =========== Reviews Page Css =========== */
+#expert .expert_content .review_page .ed_profiledet .ed_title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#expert .expert_content .review_page .ed_profiledet .ed_title h3 {
+	margin-bottom: 0;
+	color: #203569;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+#expert .expert_content .review_page .ed_profiledet .ecb_reviews .ecbd_review {
+	display: inline-block;
+	width: auto;
+}
+
+#expert .expert_content .review_page .ed_profiledet .ecb_reviews .ecbd_review .ecb_icon i svg {
+	width: 25px;
+	margin-right: 0;
+}
+
+#expert .expert_content .review_page .ed_profiledet .ecb_reviews .ecbd_review .ecb_content {
+	margin-top: 10px;
+}
+
+#expert .expert_content .review_page .ed_profiledet .ecb_reviews .ecbd_review .ecb_content p {
+	color: #989898;
+	font-size: 19px;
+	font-weight: 300;
+}
+
+#expert .expert_content .review_page .ed_review_details {
+	margin-top: 40px;
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box {
+	margin-bottom: 20px;
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box {
+	padding: 15px 20px;
+	border-radius: 10px;
+	border: 1px solid #e7e7e7;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_name,
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_review {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_name h6 {
+	font-size: 22px;
+	font-weight: 500;
+	color: #393939;
+	margin-bottom: 0;
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_review {
+	margin-left: 5px;
+
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_review .ecb_reviews .ecbd_review .ecb_icon i svg {
+	width: 20px;
+	margin-right: 0;
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_content {
+	display: inline-block;
+	width: 100%;
+	margin-top: 5px;
+}
+
+#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_content p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #393939;
+}
+
+/* =========== Ticket Popup Css =========== */
+#ticket_open .modal-dialog .modal-content {
+	padding: 0 0 10px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal-body .modal_content {
+	max-width: 290px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .form_content_height {
+	max-height: 330px;
+	overflow-y: auto;
+	width: 100%;
+	display: inline-block;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form label {
+	margin-left: 8px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form textarea {
+	background-color: #fff;
+	font-size: 15px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form textarea#ques {
+	height: 70px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .button {
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .button .btn {
+	border-radius: 5px;
+	background-color: #2fc659;
+	font-size: 18px;
+	letter-spacing: .5px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .fc_anw_box {
+	position: relative;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .fc_anw_box .edqc_icon {
+	position: absolute;
+	width: 30px;
+	right: 0;
+	bottom: 0;
+	background-color: #2fc658;
+	padding: 6px 5px 5px 5px;
+	border-top-left-radius: 100px;
+	text-align: center;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .fc_anw_box .edqc_icon .icn {
+	width: 20px;
+	display: inline-block;
+	margin-left: 2px;
+}
+
+#ticket_open .modal-dialog .modal-content .modal_content .mbc_form form .fc_anw_box .edqc_icon .icn svg {
+	fill: #fff;
+}
+
+/* =========== Profile Page Css =========== */
+#expert .expert_content .account_page .image_upload {
+	max-width: 140px;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+#expert .expert_content .account_page .image_upload input {
+	position: absolute;
+	opacity: 0;
+	left: 0;
+}
+
+#expert .expert_content .account_page .image_upload p {
+	cursor: pointer;
+	color: #203569;
+	font-weight: 500;
+}
+
+/* =========== Change Password Css =========== */
+#change_password .button button {
+	padding: 5px 10px;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+#change_password .button {
+	padding-top: 20px;
+	margin-bottom: 20px !important;
+}
+
+/* =========== Notification Drawer Css =========== */
+#collapsibleNavbar .drawer-header {
+	padding: 5px 1rem;
+	position: relative;
+}
+
+#collapsibleNavbar .drawer-header .drawer-title {
+	margin-bottom: 0;
+	color: #203569;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+#collapsibleNavbar .drawer-header .close_btn {
+	width: auto;
+	display: inline-block;
+	min-width: auto;
+	position: absolute;
+	right: 20px;
+	font-size: 22px;
+	color: #adadad;
+	top: 12px;
+	padding: 0;
+	height: auto;
+	line-height: 0.7;
+}
+
+#collapsibleNavbar .drawer-body .drawer-row {
+	margin-left: -1rem;
+	margin-right: -1rem;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box {
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border-bottom: 1px solid #dee2e6;
+	padding-bottom: 1rem;
+	margin-bottom: 1rem;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box p {
+	margin-bottom: 0;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_icon {
+	width: 50px;
+	display: inline-block;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_details {
+	padding-left: 20px;
+	max-width: calc(100% - 50px);
+	width: 100%;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_details .notid_title p {
+	color: #203569;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.3;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_details .notid_time {
+	margin-top: 5px;
+}
+
+#collapsibleNavbar .drawer-body .notification .noti_box .noti_details .notid_time p {
+	color: #959595;
+	font-size: 15px;
+	line-height: 1.3;
+}

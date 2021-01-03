@@ -1,0 +1,36 @@
+/* =========== Private Css =========== */
+
+/* ========= Expert Css ========= */
+#expert {
+	margin-top: 50px;
+}
+
+#expert .expert_content .ec_box {
+	background-color: #fff;
+	border-radius: 9px;
+}
+
+#expert .expert_content .ec_box .ecb_box {
+	padding: 10px 5px;
+}
+
+#expert .expert_content .ec_box .ecb_box .ecb_details .ecbd_title .ecb_title {
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+
+#expert .expert_content .ec_box .ecb_box .ecb_details .ecbd_title .ecb_title .ecbt_title {
+	font-size: 20px;
+	color: #2fc659;
+	font-weight: 500;
+	letter-spacing: 0.6px;
+	margin-bottom: 0;
+}
+
+#expert .expert_content .ec_box .ecb_box .ecb_details .ecbd_title .ecb_content p {
+	margin-bottom: 0;
+	font-size: 15px;
+	color: #969696;
+	line-height: 18px;
+}

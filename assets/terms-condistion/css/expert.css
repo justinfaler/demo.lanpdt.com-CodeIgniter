@@ -1,0 +1,408 @@
+/* =========================================== Header & Banner Css =========================================== */
+#header_banner {
+	background-image: url(../image/Bg_1.jpg);
+	background-repeat: no-repeat;
+	background-position: top left;
+	background-size: cover;
+	padding: 35px 0 58px;
+}
+
+#header_banner header .header_logo .logo_img {
+	max-width: 263px;
+	width: 100%;
+}
+
+#header_banner header .header_logo .header-btn a,
+#contactus button {
+	font-size: 21px;
+	font-weight: 500;
+	background-color: #78be21;
+	color: #fff;
+	padding: 14px 22px;
+	border-radius: 100px;
+	border: 1px solid #78be21;
+}
+
+#header_banner #banner {
+	margin-top: 6%;
+}
+
+#header_banner #banner .banner_text_box .banner_text .text b {
+	font-weight: 500;
+}
+
+#header_banner #banner .banner_text_box .banner_text .text {
+	font-size: 50px;
+	font-weight: 300;
+	color: #fff;
+	text-align: center;
+	line-height: 64px;
+}
+
+#header_banner #banner .banner_form .form-group textarea {
+	font-size: 21px;
+	font-weight: 300;
+	color: #000;
+	line-height: 30px;
+	max-height: 338px;
+	border-radius: 15px;
+	height: 100vh;
+	padding: 10px 20px;
+	resize: none;
+}
+
+#header_banner #banner .banner_form .form-group textarea::placeholder {
+	color: #444444;
+}
+
+#header_banner #banner .banner_form .form-group .btn {
+	width: auto;
+	display: inline-block;
+	background-color: #77be21;
+	font-weight: 300;
+	font-size: 22px;
+	padding: 6px 39px;
+	line-height: 34px;
+	border-radius: 100px;
+}
+
+#header_banner .header_nav ul {
+	list-style: none;
+}
+
+#header_banner .header_nav ul li:first-child,
+footer ul li:first-child {
+	margin-left: 0px;
+}
+
+#header_banner .header_nav ul li,
+footer ul li {
+	float: left;
+	color: #fff;
+	margin-left: 15px;
+	font-weight: 600;
+	font-size: 18px;
+	margin-top: 15px;
+}
+
+footer ul li {
+	display: inline-block
+}
+
+#header_banner .header_nav ul li a,
+footer ul li a {
+	color: #fff;
+}
+
+.header_logo ul li span,
+footer ul li span {
+	padding-left: 10px;
+}
+
+.header_logo ul li a:hover,
+footer ul li a:hover {
+	color: #78be21;
+}
+
+/* =========================================== Easy to Use Css =========================================== */
+#easy_to_use {
+	margin: 4.4% 0;
+}
+
+#easy_to_use .etu_title {
+	margin-bottom: 5.5%;
+}
+
+#easy_to_use .etu_title h3 {
+	font-size: 28px;
+	font-weight: 500;
+	color: #444444;
+}
+
+#easy_to_use .etu_box .etu_boxes .etu_box_img .etub_img_box {
+	max-width: 200px;
+	margin: 0 auto;
+}
+
+#easy_to_use .etu_box .etu_boxes .etu_box_content {
+	margin-top: 20px;
+}
+
+#easy_to_use .etu_box .etu_boxes .etu_box_content h4,
+#video_with_text .vwt_content .vwtc_text h4 {
+	font-size: 28px;
+	font-weight: 500;
+	color: #444444;
+	margin-bottom: 15px;
+}
+
+#easy_to_use .etu_box .etu_boxes .etu_box_content p,
+#video_with_text .vwt_content .vwtc_text p {
+	font-size: 16px;
+	font-weight: 300;
+	color: #8a8a8a;
+	line-height: 24px;
+}
+
+/* =========================================== Video With Text Css =========================================== */
+#video_with_text {
+	padding: 40px 0;
+	background-color: #0d3466;
+}
+
+#video_with_text .vwt_content .vwtc_text h4 {
+	color: #fff;
+}
+
+#video_with_text .vwt_content .vwtc_text p {
+	color: #fff;
+}
+
+#video_with_text .vwt_content .vwtc_video iframe {
+	border-radius: 30px;
+}
+
+.ytp-chrome-top.ytp-show-cards-title {
+	display: none !important;
+}
+
+#video_with_text .vwt_content .vwtc_video iframe .ytp-chrome-top.ytp-show-cards-title {
+	display: none !important;
+}
+
+/* =========================================== Testimonials Css =========================================== */
+#testimonials {
+	padding: 40px 0;
+	margin-bottom: 4.7%;
+	background-color: #e9e9e9;
+}
+
+#about_us #testimonials {
+	margin-bottom: 0;
+}
+
+#testimonials .vwt_content .vwtc_text h4 {
+	color: #0d3466;
+	margin-bottom: 20px;
+	font-size: 32px;
+}
+
+#testimonials .vwt_content .vwtc_text p {
+	color: #000;
+	margin-bottom: 10px;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .testimonials_box {
+	margin-top: 20px;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .testimonials_box .tb_box {
+	padding: 25px;
+	border-radius: 4px;
+	border: 1px solid #eff2f5;
+	background: #fff;
+	overflow: hidden;
+	min-height: 230px;
+	box-shadow: 0 8px 17px 3px rgba(0, 0, 0, .06);
+	height: 100%;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .tc_image .tci_image_box {
+	/*	background-image: url(../../landing/image/testimonial_image_1.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	border: 3px solid #87c94a;
+	margin: 0 auto;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .tc_image .tci_star {
+	margin-top: 10px;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .tc_image .tci_star i {
+	color: #87c94a;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .tc_text {
+	margin-top: 10px;
+}
+
+#testimonials .vwt_content .vwtc_text .testimonials_content .tc_text .tc_text_name {
+	color: #87c949;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 0;
+}
+
+
+/* =========================================== Footer Css =========================================== */
+footer {
+	background-color: #2a2b32;
+	padding: 50px 0;
+}
+
+footer .footer_logo .flogo_img {
+	max-width: 270px;
+}
+
+footer .footer-social {
+	margin-top: 20px;
+}
+
+footer .footer-social .fs_box {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: #83c623;
+	border: 1px solid #83c623;
+	border-radius: 100%;
+	padding: 9px 0;
+	text-align: center;
+	margin-right: 15px;
+}
+
+footer .footer-social .fs_box:last-child {
+	margin-right: 0;
+}
+
+footer .footer-social .fs_box a i {
+	font-size: 22px;
+	color: #292b32;
+}
+
+footer .footer-social .fs_box:hover {
+	background-color: transparent;
+}
+
+footer .footer-social .fs_box:hover a i {
+	color: #83c623;
+}
+
+footer ul {
+	margin-bottom: 0;
+}
+
+footer ul li {
+	float: none;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+/* =========================================== Terms and Conditions Css =========================================== */
+.termsandconditions#header_banner {
+	background-color: #335988;
+	background-image: linear-gradient(19deg, #335988 42%, #224672 73%);
+}
+
+.termsandconditions#video_with_text {
+	background-color: transparent;
+}
+
+.termsandconditions#video_with_text .vwt_content .vwtc_text {
+	margin-bottom: 30px;
+}
+
+.termsandconditions#video_with_text .vwt_content .vwtc_text:last-of-type {
+	margin-bottom: 0px;
+}
+
+.termsandconditions#video_with_text .vwt_content .vwtc_text h4 {
+	color: #78be21;
+}
+
+.termsandconditions#video_with_text .vwt_content .vwtc_text p {
+	color: #000;
+}
+
+.termsandconditions#video_with_text .vwt_content .vwtc_text p a {
+	color: #78be21;
+	text-transform: capitalize;
+}
+
+#contactus input,
+#contactus textarea {
+	color: #000;
+	font-size: 16px;
+	border-color: #c9c9c9;
+	border-radius: 7px;
+	height: auto;
+	min-height: inherit;
+	padding: 9px 10px 9px 20px;
+}
+
+#contactus textarea {
+	height: 120px;
+	resize: none;
+}
+
+#contactus select {
+	width: 100%;
+	border: 1px solid #c9c9c9;
+	background-image: url(../../landing/image/select_dropdown.png);
+	background-repeat: no-repeat;
+	background-position: right 15px center;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none;
+	color: #000;
+	font-size: 16px;
+	border-radius: 7px;
+	height: auto;
+	min-height: inherit;
+	padding: 9px 10px 9px 20px;
+}
+
+#contactus button {
+	max-width: 160px;
+	width: 100%;
+}
+
+.expert_content .expert_details.contact_page .ed_profilepic {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 90px;
+	margin-top: 0px;
+	margin-bottom: 0;
+	position: relative;
+}
+
+.expert_content .expert_details.contact_page .ed_profilepic .edp_img {
+	display: inline-block;
+	width: 100%;
+}
+
+#header_banner header .header_logo .header-btn a:hover,
+#header_banner #banner .banner_form .form-group .btn:hover,
+#video_with_text .vwt_content .vwtc_text .form-group .btn:hover {
+	background-color: transparent;
+	color: #fff;
+}
+
+#contactus button:hover {
+	background-color: transparent;
+	color: #78be21;
+}
+
+/* =========================================== Mobile Store Css =========================================== */
+#mobile_store {
+	margin: 4.4% 0;
+}
+
+#mobile_store .mobile_store_box h4 {
+	font-size: 25px;
+	color: #142350;
+}
+
+#mobile_store .mobile_store_box .mobile_store_box_logo {
+	margin: 20px 0;
+}

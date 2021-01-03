@@ -1,0 +1,81 @@
+/* =========== 1199px =========== */
+@media only screen and (max-width: 1199px) {
+
+	/* =========== Private Css =========== */
+	#expert .expert_content .ec_box .ecb_box .ecb_reviews .ecbd_review {
+		max-width: calc(100% - 165px);
+		margin-right: 0;
+	}
+
+	#expert .expert_content .ec_box .ecb_box .ecb_reviews .ecbd_btn {
+		max-width: 165px !important;
+	}
+
+	#expert .expert_content .ec_box .ecb_box .ecb_reviews .ecbd_btn a {
+		margin-bottom: 10px;
+	}
+
+	#expert .expert_content .ec_box .ecb_box .ecb_reviews .ecbd_btn a.ecbd_last_btn {
+		margin: 0;
+	}
+}
+
+/* =========== 1024px =========== */
+@media only screen and (max-width: 1024px) {
+	/* =========== Private Css =========== */
+}
+
+/* =========== 991px =========== */
+@media only screen and (max-width: 991px) {
+
+	/* =========== Review Page Css =========== */
+	#expert .expert_content .expert_details .edc_reviews {
+		column-count: 2;
+	}
+
+	/* =========== Live Video Call Css =========== */
+	#expert .expert_content .expert_details #video #agora_local {
+		width: 100px;
+		height: 100px;
+	}
+
+	#expert .expert_content .expert_details #video .second_video {
+		max-width: 810px;
+		width: 100%;
+		max-height: calc(100vh - 50px);
+	}
+}
+
+/* =========== 576px - 991px =========== */
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+	/* =========== Private Css =========== */
+}
+
+/* =========== 768px - 991px =========== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* =========== Private Css =========== */
+}
+
+/* =========== 768px =========== */
+@media only screen and (max-width: 767px) {
+
+	/* =========== Review Page Css =========== */
+	#expert .expert_content .expert_details .edc_reviews {
+		column-count: 2;
+	}
+}
+
+/* =========== 575px =========== */
+@media only screen and (max-width: 575px) {
+
+	/* =========== Private Css =========== */
+	/* =========== Contact Page Css =========== */
+	#expert .expert_content .contact_page .ed_form .ed_form_div .form_content.button button {
+		max-width: 100%;
+	}
+
+	/* =========== Review Page Css =========== */
+	#expert .expert_content .expert_details .edc_reviews {
+		column-count: 1;
+	}
+}

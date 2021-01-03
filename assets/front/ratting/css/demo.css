@@ -1,0 +1,19 @@
+.live-rating {
+  font-size: 43px;
+  margin-left: 10px;
+  color: hotPink;
+  top: -3px;
+  position: relative;
+}
+
+pre.prettyprint {
+    font-family: "Lucida Console", Monaco, monospace;
+    display: block;
+    margin: 20px 0;
+    font-size: 13px;
+    line-height: 20px;;
+    padding: 20px;
+    background: #EEEEEE;
+    border: 0;
+}
+

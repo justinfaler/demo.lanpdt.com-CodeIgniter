@@ -1,0 +1,104 @@
+/* =========== 1199px - 992 =========== */
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+
+	/* =========== Home Page Css =========== */
+	#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_btn .btn {
+		padding: 4px 19px;
+	}
+}
+
+/* =========== 1024px =========== */
+@media only screen and (max-width: 1024px) {}
+
+/* =========== 991px =========== */
+@media only screen and (max-width: 991px) {
+
+	/* =========== Tabbing Panel Css =========== */
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content {
+		height: 100%;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_title {
+		max-width: 100%;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon {
+		margin-bottom: 10px;
+	}
+}
+
+/* =========== 576px - 991px =========== */
+@media only screen and (min-width: 576px) and (max-width: 991px) {}
+
+/* =========== 768px - 991px =========== */
+@media only screen and (min-width: 768px) and (max-width: 991px) {}
+
+/* =========== 768px =========== */
+@media only screen and (max-width: 767px) {
+
+	/* =========== Reviews Page Css =========== */
+	#expert .expert_content .review_page .ed_review_details .edrd_box .edrdb_box .edrdb_review {
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+/* =========== 575px =========== */
+@media only screen and (max-width: 575px) {
+
+	/* =========== Tabbing Panel Css =========== */
+	#expert .expert_tab_nav {
+		position: absolute;
+		z-index: 99;
+		top: 52px;
+		right: 15px;
+		max-width: 250px;
+		max-height: calc(100vh - 70px);
+		overflow: auto;
+		padding: 0;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box {
+		flex-wrap: wrap;
+		margin-bottom: 0;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box {
+		width: 100%;
+		text-align: left !important;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content {
+		padding: 11px 20px;
+		border-bottom: 2px solid #f2f2f2;
+		border-right: 0;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box:last-child .etn_content {
+		border-bottom: 0;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_icon {
+		margin-bottom: 0;
+		width: 40px;
+		padding: 8px;
+	}
+
+	#expert .expert_tab_nav .expert_tab_nav_box .etn_box .etn_content .etnc_title {
+		margin-left: 10px;
+	}
+
+	/* =========== Home Page Css =========== */
+	#expert .expert_content {
+		margin-top: 30px;
+	}
+
+	#expert .expert_content .ec_box .my_ticket .mt_details .mtd_body .mtd_body_box .mtdb_btn .btn {
+		padding: 4px 19px;
+	}
+
+	/* =========== Pending Tickets Page Css =========== */
+	#expert .expert_content .ec_box .pend_ticket .mt_details .mtd_body .mtd_body_box .mtdb_status {
+		display: none;
+	}
+}

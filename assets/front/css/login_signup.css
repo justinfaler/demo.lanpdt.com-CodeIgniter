@@ -1,0 +1,90 @@
+/* =========== Private Css =========== */
+#login_signup {
+	margin: 7.8% 0 20px;
+}
+
+#login_signup .login_signup {
+	display: inline-block;
+	max-width: 588px;
+	width: 100%;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.11);
+	-moz-box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.11);
+	box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.11);
+}
+
+#login_signup .login_signup .ls_div {
+	display: inline-block;
+	max-width: 430px;
+	width: 100%;
+}
+
+#login_signup .login_signup .ls_div .ls_title {
+	margin-bottom: 30px;
+}
+
+#login_signup .login_signup .ls_button_div {
+	margin-top: 25px;
+}
+
+#login_signup .login_signup .ls_form .ls_signup_link {
+	margin-top: 10px;
+}
+
+#login_signup .login_signup .ls_form .ls_signup_link p {
+	margin-bottom: 0;
+	color: #203569;
+	font-size: 16px;
+}
+
+#login_signup .login_signup .ls_form .ls_signup_link p a {
+	color: #7cc243;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+#login_signup .login_signup .ls_other {
+	margin-top: 20px;
+}
+
+#login_signup .login_signup .ls_other p,
+#login_signup .login_signup .ls_other .icon {
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+}
+
+#login_signup .login_signup .ls_other p {
+	margin-bottom: 0;
+	color: #203569;
+	font-size: 16px;
+}
+
+#login_signup .login_signup .ls_other .icon {
+	margin-left: 10px;
+}
+
+#login_signup .login_signup .ls_other .icon i {
+	background-color: #3b5999;
+	color: #fff;
+	padding: initial;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	font-size: 24px;
+	line-height: 42px;
+}
+
+#login_signup .login_signup .ls_form .ls_input_div .ls_input_div_part {
+	display: inline-block;
+	width: 100%;
+	padding: 0 7px;
+}
+
+#login_signup .login_signup .ls_form .ls_input_div .ls_input_div_part .input,
+#login_signup .login_signup .ls_form .ls_input_div .ls_input_div_part .select {
+	float: left;
+	padding: 0 8px;
+}
